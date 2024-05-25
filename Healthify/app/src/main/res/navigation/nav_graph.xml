@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/first_fragment">
+
+    <fragment
+        android:id="@+id/showResultFragment"
+        android:name="com.example.healthify.ShowResultFragment"
+        android:label="fragment_show_result"
+        tools:layout="@layout/fragment_show_result" >
+        <action
+            android:id="@+id/action_showResultFragment_to_waterReminderFragment"
+            app:destination="@id/waterReminderFragment" />
+        <action
+            android:id="@+id/action_showResultFragment_to_foodCaloriesFragment"
+            app:destination="@id/foodCaloriesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/first_fragment"
+        android:name="com.example.healthify.FirstFragment"
+        android:label="fragment_first_fragment"
+        tools:layout="@layout/fragment_first_fragment" >
+        <action
+            android:id="@+id/action_first_fragment_to_showResultFragment"
+            app:destination="@id/showResultFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/waterReminderFragment"
+        android:name="com.example.healthify.WaterReminderFragment"
+        android:label="fragment_water_reminder"
+        tools:layout="@layout/fragment_water_reminder" />
+    <fragment
+        android:id="@+id/foodCaloriesFragment"
+        android:name="com.example.healthify.FoodCaloriesFragment"
+        android:label="fragment_food_calories"
+        tools:layout="@layout/fragment_food_calories" >
+        <action
+            android:id="@+id/action_foodCaloriesFragment_to_recordConfirmFragment"
+            app:destination="@id/recordConfirmFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recordFragment"
+        android:name="com.example.healthify.RecordFragment"
+        android:label="fragment_record"
+        tools:layout="@layout/fragment_record" />
+    <fragment
+        android:id="@+id/recordConfirmFragment"
+        android:name="com.example.healthify.RecordConfirmFragment"
+        android:label="fragment_record_confirm"
+        tools:layout="@layout/fragment_record_confirm" >
+        <action
+            android:id="@+id/action_recordConfirmFragment_to_recordFragment"
+            app:destination="@id/recordFragment" />
+    </fragment>
+</navigation>

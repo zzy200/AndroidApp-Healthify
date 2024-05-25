@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Base.Theme.tryop" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+
+    <style name="Theme.Healthify" parent="Base.Theme.tryop" />
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    //numpicker组件：
+    <style name="SwipePicker" parent="@style/XcoRp.Widget.SwipePicker">
+        <item name="looped">true</item>
+    </style>
+    <style name="SwipePicker.Number">
+        <item name="android:minWidth">@dimen/number_min_width</item>
+        <item name="backgroundInputTint">@color/number_background</item>
+        <item name="hintTextAppearance">@style/SwipePicker.NumberHint</item>
+        <item name="inputTextAppearance">@style/SwipePicker.NumberInput</item>
+        <item name="hoverViewStyle">@style/SwipePicker.NumberHover</item>
+    </style>
+    <style name="SwipePicker.NumberHint" parent="@style/XcoRp.TextAppearance.SwipePicker.Hint">
+        <item name="android:textSize">@dimen/number_hint_text_size</item>
+        <item name="android:textColor">@color/number_hint_accent</item>
+    </style>
+    <style name="SwipePicker.NumberInput" parent="@style/XcoRp.TextAppearance.SwipePicker.Input">
+        <item name="android:textColor">@color/number_input_selected</item>
+    </style>
+    <style name="SwipePicker.NumberHover" parent="@style/XcoRp.Style.SwipePicker.HoverView">
+        <item name="android:minWidth">@dimen/number_hover_min_width</item>
+        <item name="android:padding">@dimen/number_hover_padding</item>
+        <item name="android:textSize">@dimen/number_hover_text_size</item>
+        <item name="android:textColor">@color/number_hover_text</item>
+        <item name="android:color">@color/number_hover_background</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3cb371</color>
+    <color name="colorPrimaryDark">#2e8b57</color>
+    <color name="colorAccent">#c0392b</color>
+    <color name="colorWhite">#def9df</color>
+    <color name="colorgreengrey">#6a7868</color>
+
+    <!-- 1st Gradient color -->
+    <color name="colorPurple_start">#D500F9</color>
+    <color name="colorPurple_end">#4A148C</color>
+
+    <!-- 2nd Gradient color -->
+    <color name="colorAmber_start">#FFC400</color>
+    <color name="colorAmber_end">#FF6F00</color>
+
+    <!-- 3rd Gradient color -->
+    <color name="colorGreen_start">#00E676</color>
+    <color name="colorGreen_end">#1B5E20</color>
+    <color name="colorGreen_shiny">#99CC00</color>
+
+    <!-- 4th Gradient color -->
+    <color name="colorRed_start">#FF1744</color>
+    <color name="colorRed_end">#B71C1C</color>
+
+    <color name="number_background">#4caf50</color>
+    <color name="number_hint_accent">#00bcd4</color>
+    <color name="number_hint_primary">@color/number_background</color>
+    <color name="number_input_selected">#ed9005</color>
+    <color name="number_hover_text">#434343</color>
+    <color name="number_hover_background">#00bcd4</color>
+    <color name="scale_background">#ed9005</color>
+    <color name="negative_background">#e73120</color>
+
+    <color name="piechart_background1">#CC5500</color>
+    <color name="piechart_background2">#80DEEA </color>
+    <color name="piechart_background3">#66BB6A </color>#B0BEC5
+    <color name="piechart_background4">#B0BEC5 </color>
+</resources>
